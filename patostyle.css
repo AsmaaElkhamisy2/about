@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face{
+    font-family: Courgette;
+    src: url('fonts/Courgette/Courgette-Regular.ttf');
+}
+@font-face{
+    font-family: poppins;
+    src: url('fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face{
+    font-family: Montserrat;
+    src: url('fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
+/*first section*/
+
+#main-navbar{
+    border-top: 5px solid #ec1d25;
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    
+}
+
+#navbar{
+    width: 95%;
+    position: fixed;
+    color: white;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(2.5%);
+}
+
+#menubar{
+    width: 95%;
+    font-family: Montserrat;
+    font-size: 14px;
+    width: 50%;
+    margin-left: -50px;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+}
+
+a{
+	font-family: Montserrat;
+    font-weight: 400;
+	font-size: 15px;
+	line-height: 1.7;
+	transition: all 0.4s;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+	color: #ec1d25;
+}
+
+#icons{
+    color:white;
+    margin-left: -100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#sideicon{
+    margin-left: -150px;
+}
+
+#aboutus{ 
+    width: 100%;
+    height: 545px;
+    background-position: center;
+    background-image: url('img/bg-title-page-03.jpg');
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 25px;
+    letter-spacing: 8px;
+}
+
+
+/*second section*/
+
+#sec2{
+    background-image: url('img/pattern2.png');
+    height: 450px;
+    text-align: center;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+    
+}
+
+#sec2 h2{
+    margin-top: 140px;
+    font-family: Courgette;
+    letter-spacing:4px ;
+    line-height: 5px;
+    color:#d61c22 ;
+}
+
+#sec2 h1{
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: poppins;
+    letter-spacing:4px ;
+
+}
+
+#sec2 p{
+    margin-top: 20px;
+    font-family: Montserrat;
+    color: #666666;
+    line-height: 1.7;
+
+}
+
+/*video section*/
+
+#vediosection{
+   height: 600px;
+   background-image: url(img/header-menu-01.jpg);
+   background-attachment: fixed;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+    justify-content: space-around;
+	align-content: space-around;
+    text-align: center;
+}
+
+#video h3{
+    color: white;
+    font-family: Courgette;
+    color:#d61c22 ;
+    font-size: 30px;
+    
+}
+
+#video h1{
+    color: white;
+    font-family:  poppins;
+    letter-spacing:6px ;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 1.2;
+    text-transform: uppercase;
+   
+}
+
+#vediosection i{
+    width: 50px;
+    height: 50px;
+    margin-left: 130px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: white; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#vediosection i:hover{
+    color: white;
+    background-color: red !important;
+    cursor: pointer;
+
+}
+
+
+/*RECIPES*/
+
+#recipes{
+    background-image: url(img/pattern1.png);
+    height:500px ;
+    text-align: center;
+    
+}
+
+
+#tt-tt h3{
+    margin-top: 140px;
+    font-family: Courgette;
+    letter-spacing:4px ;
+    line-height: 5px;
+    color:#d61c22 ;
+}
+
+#tt-tt h1{
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: poppins;
+    letter-spacing:6px ;
+
+}
+
+#tt-tt p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Montserrat;
+    color: #666666;
+    line-height: 1.7;
+}
+
+
+#recip1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#recipesimg{
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    background-image: url('img/our-story-01.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    transition: all 1s;
+
+}
+
+#recipesimg:hover{
+    background-size: 120%;
+    transition: all 1.6s;
+
+}
+
+
+/*Romantic Restaurant*/
+
+
+#romantic{
+    background-image: url('img/pattern1.png');
+    height: 500px;
+    text-align: center;
+}
+
+#romantic-1{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+    align-content: space-around;
+}
+
+#romanticimg{
+    width: 350px;
+    height: 350px;
+    margin-top: 100px;
+    background-image: url('img/blog-11.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+    transition: all 1s;
+}
+#romanticimg:hover{
+    background-size: 120%;
+    transition: all 1.6s;
+
+}
+
+
+#dd-dd h3{
+    margin-top: 140px;
+    font-family: Courgette;
+    letter-spacing:4px ;
+    line-height: 5px;
+    color:#d61c22 ;
+}
+
+#dd-dd h1{
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: poppins;
+    letter-spacing:4px ;
+}
+
+#dd-dd p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Montserrat;
+    color: #666666;
+    line-height: 1.7;
+}
+
+
+/*Photo*/
+
+
+#girls{
+    width: 100%;
+    height: 600px;
+    background-image: url(img/bg-cover-video-02.jpg);
+    background-attachment: fixed;
+}
+
+
+/*CHEF*/
+
+#meet-1{
+    text-align: center;
+}
+
+#meet-1 h2{
+    font-family:Courgette ;
+    font-size: 30px;
+    letter-spacing:4px ;
+    line-height: 5px;
+    color:#d61c22 ;
+    padding-top: 120px;
+
+}
+
+#meet-1 h1{
+    font-size: 60px;
+    font-family: poppins;
+    letter-spacing:10px ;
+    text-transform: uppercase;
+    color: #222222;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+
+/*THREE CHEFS*/
+
+#three-chefs{
+    display: flex;
+    width: 90%;
+    padding: 35px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+#chef{
+    width: 25%;
+    text-align: center;
+    padding: 15px;
+    height: 300px;
+    border: 2px solid #e6e6e6;
+    border-radius: 11px;
+}
+
+#chefImage{
+    position: relative;
+    top: 0;
+    transform: translateY(-60%);
+
+}
+
+#chefImage img{
+    border-radius: 50%;
+    border: solid red 5px;
+
+}
+
+#chefImage img:hover{
+    cursor: pointer;
+    background-size: 120%;
+}
+
+
+
+#chef h2{
+    margin-top: -40px;
+}
+
+#three-chefs h2{
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #333333;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+
+}
+
+#three-chefs h2:hover{
+    color: red;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#three-chefs h6{
+    font-family: Montserrat;
+    margin-top: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #666666;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+#three-chefs p{
+    font-family: Montserrat;
+    text-align: center;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.7;
+    color: #666666;
+    margin-top: 20px;
+}
+
+
+/*SPECIALS SIGN UP*/
+
+
+#special-sign-up{
+    text-align: center;
+    background-image: url('img/pattern1.png');
+    width: 100%;
+    height: 250px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+#sign h2{
+    font-family: poppins;
+    font-size: 22px;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#text-i{
+    border: 2px solid #d9d9d9;
+    border-radius: 10px;
+    width: 270px;
+    height: 50px;
+    margin: 0 20px 0 20px;
+}
+
+#text-i input,i{
+    text-align: center;
+    margin: 20px;
+    border: none;
+    background: none;
+}
+#text-i input:focus{
+    outline: none;
+}
+
+#button-1 button{
+    width: 160px;
+    height: 40px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.1;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#button-1 button:hover{
+    background-color: red;
+    border: white;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+
+/*THREE SECTIONS*/
+
+#main{
+    background-color: #222222;
+    width: 100%;
+    height: 500px;
+    display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	align-items: center;
+	align-content: stretch;
+}
+
+/*First Section -1*/
+
+#con-1{
+    margin-left: 120px;
+}
+#con-1 h4{
+    font-family: poppins;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+
+}
+#con-1 ul{
+    color: #999999;
+    font-family: Montserrat;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+/*Second section -2*/
+
+#lat-1 ul{
+    list-style-type: none;
+    font-size: 13px;
+    
+}
+
+#lat-1 h4{
+    color: white;
+    font-family: poppins;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 20px;
+}
+
+#lat-1 ul{
+    color: #999999;
+    font-family: Montserrat;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+#lat-1 p{
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+#link-11{
+    margin-left: 20px;
+    color: red;
+    font-size: 13px;
+}
+#lat-1 h6{
+    margin-left: 20px;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    color: #555555
+}
+
+/*Third Section*/
+
+#gallary{
+    width: 35%;
+}
+
+#gallary img{
+    width: 80px ;
+    height: 80px;
+}
+table{
+    border-collapse: collapse;
+}
+
+#gallary h4{
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#gallary td{
+    padding: 5px 10px 0px 5px;
+}
+#gallary tr{
+    padding-bottom: 0px;
+}
+#kk img:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
+
+/*Last Section*/
+#last-section{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: space-around;
+}
+
+#last-p p{
+    color: #999999;
+    font-size: 16px;
+    line-height: 1.7px;
+}
+
+#last-p i{
+    margin: 0px;
+}
+
+#last-p a{
+    color: #999999;
+}
+
+#last-p a:hover{
+    color: red;
+    transition: all 0.5s;
+}
+
+
+/*Responsive*/
+
+
+@media only screen and (max-width: 800px){
+    #menubar{
+        display: none;
+    }
+
+    #sec2{
+        height: 600px;
+    }
+    
+    #sec2 p{
+        font-size: 11px;
+    }
+    #tt-tt p{
+        font-size: 15px;
+    }
+
+    #recipes{
+        height: 800px;
+    }
+
+    #romantic{
+        height: 900px;
+    }
+
+    #dd-dd h1{
+        font-size: 40px;
+    }
+
+    #dd-dd p{
+        font-size: 15px;
+        
+    }
+
+    #three-chefs{
+
+        height: 1500px;
+
+    }
+
+    #chef{
+        width: 100vw;
+        height: 350px;
+        margin-top: 100px;
+    }
+    #special-sign-up{
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: space-around;
+    }
+    #sign h2{
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    #main{
+    height: 1150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: stretch;
+    }
+
+    #con-1{
+        margin-left: -2px;
+        margin-top: 50px;
+    }
+
+    #lat-1{
+        margin-top: 50px;
+    }
+
+    #gallary{
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+} 
+
+@media only screen and (max-width: 500px){
+
+    #aboutus h1{
+        font-size: 30px;
+    }
+
+    #sec2 p{
+        font-size: 8px;
+    }
+    #tt-tt p{
+        font-size: 10px;
+    }
+
+    #recipes{
+        height: 800px;
+    }
+
+    #romantic{
+        height: 900px;
+    }
+
+    #dd-dd h1{
+        font-size: 40px;
+    }
+
+    #dd-dd p{
+        font-size: 11px;
+        
+    }
+    #three-chefs{
+        height: 1700px;
+    }
+    #chef{
+        width: 100vw;
+        height: 400px;
+        margin-top: 100px;
+    }
+
+
+}
+
+
+
+
